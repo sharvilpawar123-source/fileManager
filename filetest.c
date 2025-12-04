@@ -52,9 +52,9 @@ int decrypt(char input[50], char password[6])
 
 int renameFile(char input[50], char output[50]){
     if(rename(input,output)==0){
-       printf("\n File encryption successful!!\n");
+       printf("\n File renamed successfully!!\n");
     }else{
-       perror("\nXX File encryption Failed XX\n");
+       perror("\nXX File rename Failed XX\n");
      
     }
     return 0;
